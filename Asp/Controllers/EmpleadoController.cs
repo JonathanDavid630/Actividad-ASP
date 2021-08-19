@@ -12,8 +12,7 @@ namespace Asp.Controllers
         // GET: Empleado
         public ActionResult Empleado()
         {
-
-            using (EmpleadoEntities1 bd = new EmpleadoEntities1())
+           using (EmpleadoEntities1 bd = new EmpleadoEntities1())
             {
 
                 var ListadoEmpleado = bd.Empleado.ToList();
