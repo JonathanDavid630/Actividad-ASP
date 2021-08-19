@@ -13,7 +13,7 @@ namespace Asp.Controllers
         public ActionResult Empleado()
         {
 
-            using (EmpleadoEntities bd = new EmpleadoEntities())
+            using (EmpleadoEntities1 bd = new EmpleadoEntities1())
             {
 
                 var ListadoEmpleado = bd.Empleado.ToList();

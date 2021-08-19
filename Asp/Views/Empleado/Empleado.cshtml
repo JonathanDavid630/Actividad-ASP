@@ -10,35 +10,47 @@
 <table class="table table-hover">
     <thead>
     <th>
+        N°
+    </th>
+    <th>
         Nombre
+    </th>
 
+    <th>
+        Apellido
+    </th>
+    <th>
+        Dui
     </th>
     <th>
         Direccion
-
     </th>
-
-
+    <th>
+        Telefono
+    </th>
+    <th>
+        Email
+    </th>
+    <th>
+        Cargo
+    </th>
     </thead>
 
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
+                <td>@item.IdEmpleado</td>
                 <td>@item.Nombre</td>
+                <td>@item.Apellido</td>
+                <td>@item.Dui</td>
                 <td>@item.Direccion</td>
-
+                <td>@item.Telefono</td>
+                <td>@item.Email</td>
+                <td>@item.cargo</td>
             </tr>
-
-
-
         }
 
-
-
-
     </tbody>
-
-
 
 </table>

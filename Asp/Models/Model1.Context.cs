@@ -13,10 +13,10 @@ namespace Asp.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class EmpleadoEntities : DbContext
+    public partial class EmpleadoEntities1 : DbContext
     {
-        public EmpleadoEntities()
-            : base("name=EmpleadoEntities")
+        public EmpleadoEntities1()
+            : base("name=EmpleadoEntities1")
         {
         }
     
